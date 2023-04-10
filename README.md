@@ -66,7 +66,7 @@ Altogether, *Sole.jl* makes for a powerful tool built with an eye to **formal co
 </p>
 
 
-## What to contribute?
+## Want to contribute?
 
 Read these first:
 * [Blue Code Style](https://github.com/invenia/BlueStyle);
