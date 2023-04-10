@@ -1,6 +1,5 @@
 # *Sole.jl* – Long live transparent modeling!
-
-### A framework for symbolic, transparent, and interpretable machine learning!
+#### A framework for symbolic, transparent, and interpretable machine learning!
 
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://aclai-lab.github.io/Sole.jl/stable)
 <!-- [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://aclai-lab.github.io/Sole.jl/dev)
