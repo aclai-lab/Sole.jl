@@ -60,7 +60,10 @@ Altogether, *Sole.jl* makes for a powerful tool built with an eye to **formal co
 **Q:** Why the name?
 **A:** *Sole* stands for SymbOlic LEarning; it also means "sun" in Italian, a hint to the enlightening power of transparent modeling.
 
-<p align="center">![](Sole%20code%20organization.png "Code organization")</p>
+<!-- ![](Sole%20code%20organization.png "Code organization") -->
+<p align="center">
+  <img src="Sole%20code%20organization.png" alt="Code organization">
+</p>
 
 
 ## What to contribute?
