@@ -1,12 +1,12 @@
-# Sole – a logic-based framework for transparent, interpretable machine learning
+# Sole – A framework for symbolic, transparent, interpretable machine learning!
 
-* [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://aclai-lab.github.io/Sole.jl/stable)
-* [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://aclai-lab.github.io/Sole.jl/dev)
-* [![Build Status](https://api.cirrus-ci.com/github/aclai-lab/Sole.jl.svg)](https://cirrus-ci.com/github/aclai-lab/Sole.jl)
-* [![Coverage](https://codecov.io/gh/aclai-lab/Sole.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/aclai-lab/Sole.jl)
-* [![Coverage](https://coveralls.io/repos/github/aclai-lab/Sole.jl/badge.svg?branch=master)](https://coveralls.io/github/aclai-lab/Sole.jl?branch=master)
-* [![Code Style: Blue](https://img.shields.io/badge/code%20style-blue-4495d1.svg)](https://github.com/invenia/BlueStyle)
-<!-- * [![ColPrac: Contributor's Guide on Collaborative Practices for Community Packages](https://img.shields.io/badge/ColPrac-Contributor's%20Guide-blueviolet)](https://github.com/SciML/ColPrac) -->
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://aclai-lab.github.io/Sole.jl/stable)
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://aclai-lab.github.io/Sole.jl/dev)
+[![Build Status](https://api.cirrus-ci.com/github/aclai-lab/Sole.jl.svg)](https://cirrus-ci.com/github/aclai-lab/Sole.jl)
+[![Coverage](https://codecov.io/gh/aclai-lab/Sole.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/aclai-lab/Sole.jl)
+[![Coverage](https://coveralls.io/repos/github/aclai-lab/Sole.jl/badge.svg?branch=master)](https://coveralls.io/github/aclai-lab/Sole.jl?branch=master)
+[![Code Style: Blue](https://img.shields.io/badge/code%20style-blue-4495d1.svg)](https://github.com/invenia/BlueStyle)
+<!-- [![ColPrac: Contributor's Guide on Collaborative Practices for Community Packages](https://img.shields.io/badge/ColPrac-Contributor's%20Guide-blueviolet)](https://github.com/SciML/ColPrac) -->
 
 Symbolic learning is machine learning based on symbolic logic. Its peculiarity lies in the fact that the learned models enclose an **explicit knowledge representation**, which offers many opportunities:
 - Verifying that the model's thought process is adequate for a given task;
