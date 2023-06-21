@@ -1,4 +1,6 @@
-# *Sole.jl* – Long live transparent modeling!
+<div align="center"><a href="https://github.com/aclai-lab/Sole.jl"><img src="logo.png" alt="" title="This package is part of Sole.jl" width="200"></a></div>
+
+# Sole.jl – Long live transparent modeling!
 #### A framework for symbolic, transparent, and interpretable machine learning!
 
 <!-- 
@@ -24,7 +26,7 @@ These levels of **transparency** (or *interpretability*) are generally not avail
 
 *Enough with this!* The lesser and lesser minoritarian theory of symbolic learning deserves a programming framework of its own!
 
-## *Sole.jl*
+## Sole.jl
 
 *Sole.jl* is a collection of Julia packages for symbolic learning and reasoning; *Sole.jl* covers **a relatively wide range of functionality** that is of interest for the symbolic community, but it also fills some gaps with a few functionalities for standard machine learning pipelines (e.g., feature selection on multimodal (un)structured data). At the time of writing, the framework comprehends the following packages:
 + [*SoleLogics.jl*](https://github.com/aclai-lab/SoleLogics.jl) lays the **logical foundations** for symbolic learning. It provides a useful codebase for [*computational logic*](https://en.wikipedia.org/wiki/Computational_logic), which features easy manipulation of:
