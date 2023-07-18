@@ -5,7 +5,7 @@ DocMeta.setdocmeta!(Sole, :DocTestSetup, :(using Sole); recursive=true)
 
 makedocs(;
     modules=[Sole],
-    authors="Eduard I. STAN, Giovanni PAGLIARINI",
+    authors="Federico Manzella, Giovanni Pagliarini, Eduard I. Stan, Guido Sciavicco",
     repo="https://github.com/aclai-lab/Sole.jl/blob/{commit}{path}#{line}",
     sitename="Sole.jl",
     format=Documenter.HTML(;
@@ -20,4 +20,7 @@ makedocs(;
 
 deploydocs(;
     repo="github.com/aclai-lab/Sole.jl",
+    target = "build",
+    branch = "gh-pages",
+    versions = ["main" => "main", "stable" => "v^", "v#.#", "dev" => "dev"],
 )
