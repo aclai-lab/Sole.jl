@@ -1,4 +1,6 @@
-# *Sole.jl* – Long live transparent modeling!
+<div align="center"><a href="https://github.com/aclai-lab/Sole.jl"><img src="logo.png" alt="" title="This package is part of Sole.jl" width="200"></a></div>
+
+# Sole.jl – Long live transparent modeling!
 #### A framework for symbolic, transparent, and interpretable machine learning!
 
 <!-- 
@@ -6,7 +8,7 @@ TODO:
 [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://aclai-lab.github.io/Sole.jl/stable)
 [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://aclai-lab.github.io/Sole.jl/dev)
  -->
-<!-- [![Build Status](https://api.cirrus-ci.com/github/aclai-lab/Sole.jl.svg)](https://cirrus-ci.com/github/aclai-lab/Sole.jl)
+<!-- [![Build Status](https://api.cirrus-ci.com/github/aclai-lab/Sole.jl.svg?branch=master)](https://cirrus-ci.com/github/aclai-lab/Sole.jl)
 [![Coverage](https://codecov.io/gh/aclai-lab/Sole.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/aclai-lab/Sole.jl)
 [![Coverage](https://coveralls.io/repos/github/aclai-lab/Sole.jl/badge.svg?branch=master)](https://coveralls.io/github/aclai-lab/Sole.jl?branch=master)
 [![Code Style: Blue](https://img.shields.io/badge/code%20style-blue-4495d1.svg)](https://github.com/invenia/BlueStyle) -->
@@ -24,7 +26,7 @@ These levels of **transparency** (or *interpretability*) are generally not avail
 
 *Enough with this!* The lesser and lesser minoritarian theory of symbolic learning deserves a programming framework of its own!
 
-## *Sole.jl*
+## Sole.jl
 
 *Sole.jl* is a collection of Julia packages for symbolic learning and reasoning; *Sole.jl* covers **a relatively wide range of functionality** that is of interest for the symbolic community, but it also fills some gaps with a few functionalities for standard machine learning pipelines (e.g., feature selection on multimodal (un)structured data). At the time of writing, the framework comprehends the following packages:
 + [*SoleLogics.jl*](https://github.com/aclai-lab/SoleLogics.jl) lays the **logical foundations** for symbolic learning. It provides a useful codebase for [*computational logic*](https://en.wikipedia.org/wiki/Computational_logic), which features easy manipulation of:
@@ -55,7 +57,7 @@ These levels of **transparency** (or *interpretability*) are generally not avail
 Altogether, *Sole.jl* makes for a powerful tool built with an eye to **formal correctness**, and is of use for both machine learning practitioners and computational logicians.
 
 **Q:** Ok, so what symbolic learning methods do you people provide?
-**A:** At the moment, [*ModalDecisionTrees.jl*](https://github.com/giopaglia/ModalDecisionTrees.jl) is the only package compatible with Sole.jl, and it provides novel decision tree algorithms based on multimodal temporal and spatial logics for time-series and image classification. Checkout the related [talk at JuliaCon22](https://live.juliacon.org/talk/RQP9TG).
+**A:** At the moment, [*ModalDecisionTrees.jl*](https://github.com/aclai-lab/ModalDecisionTrees.jl) is the only package compatible with Sole.jl, and it provides novel decision tree algorithms based on multimodal temporal and spatial logics for time-series and image classification. Checkout the related [talk at JuliaCon22](https://live.juliacon.org/talk/RQP9TG).
 
 **Q:** Why the name?
 **A:** *Sole* stands for SymbOlic LEarning; it also means "sun" in Italian, a hint to the enlightening power of transparent modeling.
