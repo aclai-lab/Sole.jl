@@ -57,7 +57,7 @@ These levels of **transparency** (or *interpretability*) are generally not avail
 Altogether, *Sole.jl* makes for a powerful tool built with an eye to **formal correctness**, and is of use for both machine learning practitioners and computational logicians.
 
 **Q:** Ok, so what symbolic learning methods do you people provide?
-**A:** At the moment, [*ModalDecisionTrees.jl*](https://github.com/giopaglia/ModalDecisionTrees.jl) is the only package compatible with Sole.jl, and it provides novel decision tree algorithms based on multimodal temporal and spatial logics for time-series and image classification. Checkout the related [talk at JuliaCon22](https://live.juliacon.org/talk/RQP9TG).
+**A:** At the moment, [*ModalDecisionTrees.jl*](https://github.com/aclai-lab/ModalDecisionTrees.jl) is the only package compatible with Sole.jl, and it provides novel decision tree algorithms based on multimodal temporal and spatial logics for time-series and image classification. Checkout the related [talk at JuliaCon22](https://live.juliacon.org/talk/RQP9TG).
 
 **Q:** Why the name?
 **A:** *Sole* stands for SymbOlic LEarning; it also means "sun" in Italian, a hint to the enlightening power of transparent modeling.
