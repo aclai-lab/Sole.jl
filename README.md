@@ -28,6 +28,17 @@ These levels of **transparency** (or *interpretability*) are generally not avail
 
 ## Sole.jl
 
+#### JuliaCon 2023 30-minute talk
+
+<!-- [![](https://img.youtube.com/vi/HTRhOmQIObg/0.jpg)](https://youtu.be/HTRhOmQIObg) -->
+<div align="center">
+<a href="https://youtu.be/HTRhOmQIObg">
+  <img src="https://img.youtube.com/vi/HTRhOmQIObg/0.jpg">
+</a>
+</div>
+
+## Sole.jl
+
 *Sole.jl* is a collection of Julia packages for symbolic learning and reasoning; *Sole.jl* covers **a relatively wide range of functionality** that is of interest for the symbolic community, but it also fills some gaps with a few functionalities for standard machine learning pipelines (e.g., feature selection on multimodal (un)structured data). At the time of writing, the framework comprehends the following packages:
 + [*SoleLogics.jl*](https://github.com/aclai-lab/SoleLogics.jl) lays the **logical foundations** for symbolic learning. It provides a useful codebase for [*computational logic*](https://en.wikipedia.org/wiki/Computational_logic), which features easy manipulation of:
 	+ Propositional and (multi)modal logics (propositions, logical constants, alphabet, grammars, fuzzy algebras);
