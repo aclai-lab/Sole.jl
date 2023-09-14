@@ -32,7 +32,7 @@ These levels of **transparency** (or *interpretability*) are generally not avail
 
 <!-- [![](https://img.youtube.com/vi/HTRhOmQIObg/0.jpg)](https://youtu.be/HTRhOmQIObg) -->
 <div align="center">
-<a href="https://youtu.be/HTRhOmQIObg">
+<a target="_blank" href="https://youtu.be/HTRhOmQIObg">
   <img src="https://img.youtube.com/vi/HTRhOmQIObg/0.jpg">
 </a>
 </div>
