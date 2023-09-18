@@ -26,8 +26,6 @@ These levels of **transparency** (or *interpretability*) are generally not avail
 
 *Enough with this!* The lesser and lesser minoritarian theory of symbolic learning deserves a programming framework of its own!
 
-## Sole.jl
-
 #### JuliaCon 2023 30-minute talk
 
 <!-- [![](https://img.youtube.com/vi/HTRhOmQIObg/0.jpg)](https://youtu.be/HTRhOmQIObg) -->
@@ -41,7 +39,7 @@ These levels of **transparency** (or *interpretability*) are generally not avail
 
 *Sole.jl* is a collection of Julia packages for symbolic learning and reasoning; *Sole.jl* covers **a relatively wide range of functionality** that is of interest for the symbolic community, but it also fills some gaps with a few functionalities for standard machine learning pipelines (e.g., feature selection on multimodal (un)structured data). At the time of writing, the framework comprehends the following packages:
 + [*SoleLogics.jl*](https://github.com/aclai-lab/SoleLogics.jl) lays the **logical foundations** for symbolic learning. It provides a useful codebase for [*computational logic*](https://en.wikipedia.org/wiki/Computational_logic), which features easy manipulation of:
-	+ Propositional and (multi)modal logics (propositions, logical constants, alphabet, grammars, fuzzy algebras);
+	+ Propositional and (multi)modal logics (atoms, logical constants, alphabet, grammars, fuzzy algebras);
 	+ [Logical formulas](https://en.wikipedia.org/wiki/Well-formed_formula) (random generation, parsing, minimization);
 	+ [Logical interpretations](https://en.wikipedia.org/wiki/Interpretation_(logic)) (or models, e.g., [Kripke structures](https://en.wikipedia.org/wiki/Kripke_structure_(model_checking)));
 	+ Algorithms for [model checking](https://en.wikipedia.org/wiki/Model_checking) (that is, checking that a formula is satisfied by an interpretation).
