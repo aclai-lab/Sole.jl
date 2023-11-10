@@ -22,7 +22,7 @@ Symbolic learning is machine learning based on symbolic logic. Its peculiarity l
 - Learning of new insights by simple inspection of the model;
 - Manual refinement of the model at a later time.
 
-These levels of **transparency** (or *interpretability*) are generally not available with standard machine learning methods, thus, as AI permeates more and more aspects of our lives, symbolic learning is becoming increasingly popular. In spite of this, implementations of symbolic algorithms (e.g, extraction of decision trees or rules) are mostly scattered across different languages and machine learning frameworks.
+These levels of **transparency** (or *interpretability*) are generally not available with standard machine learning methods, thus, as AI permeates more and more aspects of our lives, symbolic learning is becoming increasingly popular. In spite of this, implementations of symbolic algorithms (e.g., extraction of decision trees or rules) are mostly scattered across different languages and machine learning frameworks.
 
 *Enough with this!* The lesser and lesser minoritarian theory of symbolic learning deserves a programming framework of its own!
 
