@@ -11,12 +11,12 @@ SoleLogics = "b002da8f-3cb3-4d91-bbe3-2953433912b5"
 SoleModels = "4249d9c7-3290-4ddd-961c-e1d3ec2467f8"
 
 [compat]
-julia = "1"
+Reexport = "1.2"
 SoleBase = "0.11"
-SoleData = "0.10"
+SoleData = "0.10, 0.11"
 SoleLogics = "0.5"
 SoleModels = "0.2.0"
-Reexport = "1.2"
+julia = "1"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
