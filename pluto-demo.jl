@@ -67,7 +67,7 @@ begin
 	using Random
 
 	# Create a random formula
-	φ4 = randformula(Random.MersenneTwister(107), 3, [p,q], SoleLogics.BASE_PROPOSITIONAL_OPERATORS)
+	φ4 = randformula(Random.MersenneTwister(107), 3, [p,q], SoleLogics.BASE_PROPOSITIONAL_CONNECTIVES)
 
 	φ4 |> syntaxstring |> println
 
@@ -136,7 +136,7 @@ md"""
 
 # ╔═╡ a01c8457-42e6-47ed-bfca-bd8c278d9574
 # Generate a random MODAL formula
-φ10 = randformula(Random.MersenneTwister(14), 3, [p,q], SoleLogics.BASE_MODAL_OPERATORS)
+φ10 = randformula(Random.MersenneTwister(14), 3, [p,q], SoleLogics.BASE_MODAL_CONNECTIVES)
 
 # ╔═╡ 7c533604-a185-4b52-837c-420f2078840f
 # Pick the first world
@@ -260,7 +260,7 @@ end
 # ╔═╡ 00310a1c-c4f4-43bc-a60c-a6113434f242
 begin
 	# Sprinkle the model with the test instances!
-	predictions, tree_test = report(mach).sprinkle(X_df[test_idxs,:], y2[test_idxs]);
+	predictions, tree_test = report(mach).sprinkle(X_df2[test_idxs,:], y2[test_idxs]);
 
 	# Extract ruleset and print its metrics
 	ruleset_test = listrules(tree_test)

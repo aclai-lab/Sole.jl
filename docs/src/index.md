@@ -4,7 +4,7 @@ CurrentModule = Sole
 
 # Sole
 
-Documentation for [Sole](https://github.com/aclai-lab/Sole.jl).
+Welcome to the documentation for [Sole](https://github.com/aclai-lab/Sole.jl).
 
 ```@index
 ```

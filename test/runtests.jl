@@ -14,7 +14,7 @@ end
 println("Julia version: ", VERSION)
 
 test_suites = [
-    # ("Pluto Demo", ["$(dirname(dirname(pathof(Sole))))/pluto-demo.jl", ]),
+    ("Pluto Demo", ["$(dirname(dirname(pathof(Sole))))/pluto-demo.jl", ]),
 ]
 
 @testset "Sole.jl" begin

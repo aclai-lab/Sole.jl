@@ -6,9 +6,10 @@ DocMeta.setdocmeta!(Sole, :DocTestSetup, :(using Sole); recursive=true)
 makedocs(;
     modules=[Sole],
     authors="Federico Manzella, Giovanni Pagliarini, Eduard I. Stan, Guido Sciavicco",
-    repo="https://github.com/aclai-lab/Sole.jl/blob/{commit}{path}#{line}",
+    repo=Documenter.Remotes.GitHub("aclai-lab", "Sole.jl"),
     sitename="Sole.jl",
     format=Documenter.HTML(;
+        size_threshold = 4000000,
         prettyurls=get(ENV, "CI", "false") == "true",
         canonical="https://aclai-lab.github.io/Sole.jl",
         assets=String[],
