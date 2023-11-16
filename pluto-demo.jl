@@ -1,11 +1,14 @@
 ### A Pluto.jl notebook ###
-# v0.19.27
+# v0.19.32
 
 using Markdown
 using InteractiveUtils
 
 # ╔═╡ 5bfe5ff9-0238-49a4-8e51-cb16e3722d38
-using SoleLogics
+begin
+	Pkg.update()
+	using SoleLogics
+end
 
 # ╔═╡ cdcdc74f-3267-4cbf-9f8d-08559ddb39e7
 begin
@@ -13,7 +16,7 @@ begin
 
 	# Instantiate a frame with 5 worlds and 5 edges
 	worlds = SoleLogics.World.(1:5)
-	edges = Edge.([ (1, 2), (1, 3), (2, 4), (3, 4), (3, 5)])
+	edges = Edge.([(1,2), (1,3), (2,4), (3,4), (3,5)])
 	fr = SoleLogics.ExplicitCrispUniModalFrame(worlds, Graphs.SimpleDiGraph(edges))
 end
 
