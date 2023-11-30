@@ -1,9 +1,10 @@
 name = "Sole"
 uuid = "7b3b3b3f-8b15-4a80-a798-b383498bc2cf"
 authors = ["Federico Manzella", "Giovanni Pagliarini", "Eduard I. Stan", "Guido Sciavicco"]
-version = "0.2.0"
+version = "0.3.0"
 
 [deps]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 SoleBase = "4475fa32-7023-44a0-aa70-4813b230e492"
 SoleData = "123f1ae1-6307-4526-ab5b-aab3a92a2b8c"
@@ -11,15 +12,19 @@ SoleLogics = "b002da8f-3cb3-4d91-bbe3-2953433912b5"
 SoleModels = "4249d9c7-3290-4ddd-961c-e1d3ec2467f8"
 
 [compat]
-julia = "1"
 SoleBase = "0.11"
-SoleData = "0.11"
+SoleData = "0.12"
 SoleLogics = "0.6"
-SoleModels = "0.4"
+SoleModels = "0.5"
 Reexport = "1.2"
+Random = "1"
+julia = "1"
 
 [extras]
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+Markdown = "d6f4376e-aef5-505a-96c1-9c027394607a"
+PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
-test = ["Test"]
+test = ["Test", "Markdown", "InteractiveUtils", "PlutoUI"]

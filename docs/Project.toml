@@ -1,3 +1,6 @@
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 Sole = "7b3b3b3f-8b15-4a80-a798-b383498bc2cf"
+
+[compat]
+Documenter = "1"

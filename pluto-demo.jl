@@ -6,6 +6,7 @@ using InteractiveUtils
 
 # ╔═╡ 5bfe5ff9-0238-49a4-8e51-cb16e3722d38
 begin
+    using Pkg
 	Pkg.update()
 	using SoleLogics
 end
