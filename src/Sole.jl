@@ -8,6 +8,8 @@ using Reexport
 @reexport using SoleData
 @reexport using SoleModels
 
+using SoleModels: load_arff_dataset
+
 # using SoleFeatures
 
 # using SolePostHoc
