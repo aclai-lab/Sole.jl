@@ -196,7 +196,7 @@ end
 
 # ╔═╡ ae1b7375-e85f-48ff-abe4-b1b476d217f0
 # Check the formula on the first interval of every instance
-[check(φ20, logiset, i, SoleModels.Interval(1,2)) for i in 1:ninstances(X_df)]
+[check(φ20, logiset, i, SoleData.Interval(1,2)) for i in 1:ninstances(X_df)]
 
 # ╔═╡ 9a9d0d2f-df64-4cca-aa22-0b75787f18e3
 begin
