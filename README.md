@@ -77,11 +77,13 @@ Altogether, *Sole.jl* makes for a powerful tool built with an eye to **formal co
 </p>
  -->
 
+<!--
 ## Want to contribute?
 
 Read these first:
 * [Blue Code Style](https://github.com/invenia/BlueStyle);
 * [ColPrac: Contributor's Guide on Collaborative Practices for Community Packages](https://github.com/SciML/ColPrac).
+ -->
 
 ## About
 
