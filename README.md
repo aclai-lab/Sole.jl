@@ -66,6 +66,8 @@ Although at an embryonic stage, *Sole.jl* covers a relatively wide range of func
 
 Altogether, *Sole.jl* makes for a powerful tool built with an eye to **formal correctness**, and is of use for both machine learning practitioners and computational logicians.
 
+<!-- Link to https://github.com/Julia-XAI/ExplainableAI.jl -->
+
 **Q:** Ok, so what symbolic learning methods do you people provide?
 **A:** At the moment, [*ModalDecisionTrees.jl*](https://github.com/aclai-lab/ModalDecisionTrees.jl) is the only package compatible with Sole.jl, and it provides novel decision tree algorithms based on modal temporal and spatial logics for time-series and image classification. Checkout the related [talk at JuliaCon22](https://live.juliacon.org/talk/RQP9TG).
 
