@@ -1,6 +1,6 @@
 name = "Sole"
 uuid = "7b3b3b3f-8b15-4a80-a798-b383498bc2cf"
-authors = ["Federico Manzella", "Giovanni Pagliarini", "Eduard I. Stan", "Guido Sciavicco"]
+authors = ["Michele Ghiotti", "Federico Manzella", "Mauro Milella", "Giovanni Pagliarini", "Eduard I. Stan", "Guido Sciavicco"]
 version = "0.4.0"
 
 [deps]
