@@ -176,7 +176,7 @@ md"""
 # ╔═╡ ecd7377b-1a81-42e4-b216-80cf4184e0ea
 begin
     # Build set of features
-    features = [UnivariateMin(i_variable) for i_variable in 1:ncol(X_df)]
+    features = [VariableMin(i_variable) for i_variable in 1:ncol(X_df)]
     syntaxstring.(features)
 end
 
