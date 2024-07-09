@@ -57,7 +57,7 @@ Additional packages include:
 + [*ModalDecisionLists.jl*](https://github.com/aclai-lab/ModalDecisionLists.jl) which implements a sequential covering algorithm to learn decision lists;
 
 ## Want to know more?
-The formal foundations of the framework are given in the PhD thesis:
+The formal foundations of the framework are given in [giopaglia](https://github.com/giopaglia/)'s PhD thesis:
 [*Modal Symbolic Learning: from theory to practice*, G. Pagliarini (2024)](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=FRo4yrcAAAAJ&citation_for_view=FRo4yrcAAAAJ:LkGwnXOMwfcC)
 
 <!--
