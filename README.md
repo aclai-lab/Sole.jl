@@ -35,10 +35,10 @@ These levels of **transparency** (or *interpretability*) are generally not avail
 </a>
 </div>
 
-## Sole.jl
+## The Sole.jl framework
 
-*Sole.jl* is a collection of Julia packages for symbolic learning and reasoning.
-Although at an embryonic stage, *Sole.jl* covers a relatively wide range of functionality that is of interest for the symbolic community, but it also fills some gaps with a few functionalities for standard machine learning pipelines. At the time of writing, the framework comprehends the following packages:
+*Sole* is a collection of Julia packages for symbolic learning and reasoning.
+Although at an embryonic stage, *Sole.jl* covers a range of functionality that is of interest for the symbolic community, but it also fills some gaps with a few functionalities for standard machine learning pipelines. At the time of writing, the framework comprehends the three core packages:
 + [*SoleLogics.jl*](https://github.com/aclai-lab/SoleLogics.jl) provides the **logical layer** for symbolic learning. It provides a useful codebase for [*computational logic*](https://en.wikipedia.org/wiki/Computational_logic), which features easy manipulation of:
 	+ Propositional and (multi)modal logics (atoms, logical constants, alphabet, grammars, fuzzy algebras);
 	+ [Logical formulas](https://en.wikipedia.org/wiki/Well-formed_formula) (random generation, parsing, minimization);
@@ -50,6 +50,11 @@ Although at an embryonic stage, *Sole.jl* covers a relatively wide range of func
 + [*SoleModels.jl*](https://github.com/aclai-lab/SoleModels.jl) defines the building blocks of **symbolic modeling**, featuring:
 	+ Definitions for (logic-agnostic) symbolic models (mainly, decision rules/lists/trees/forests);
 	+ Support for mixed, neuro-symbolic computation.
+
+Additional packages include:
++ [*SoleDecisionTreeInterface.jl*](https://github.com/aclai-lab/SoleDecisionTreeInterface.jl), which enables the use of Sole on decision trees learned via [DecisionTree.jl](https://github.com/JuliaAI/DecisionTree.jl) (e.g., extract and evaluate rules);
++ [*ModalDecisionTrees.jl*](https://github.com/aclai-lab/ModalDecisionTrees.jl) which allows you to learn decision trees based on temporal logics on time-series datasets, and spatial logics on (small) image datasets;
++ [*ModalDecisionLists.jl*](https://github.com/aclai-lab/ModalDecisionLists.jl) which implements a sequential covering algorithm to learn decision lists;
 
 <!--
 + [*SoleFeatures.jl*](https://github.com/aclai-lab/SoleFeatures.jl) provides tools for filter-based **feature selection** on [*(un)structured* data](https://en.wikipedia.org/wiki/Unstructured_data). At this time, the package provides:
@@ -64,15 +69,17 @@ Although at an embryonic stage, *Sole.jl* covers a relatively wide range of func
   (e.g., feature selection on multimodal (un)structured data)
 -->
 
-Altogether, *Sole.jl* makes for a powerful tool built with an eye to **formal correctness**, and is of use for both machine learning practitioners and computational logicians.
+<!-- Altogether, *Sole.jl* makes for a novel tool built with an eye to **formal correctness**, and is of use for both machine learning practitioners and computational logicians. -->
 
 <!-- Link to https://github.com/Julia-XAI/ExplainableAI.jl -->
 
+<!--
 **Q:** Ok, so what symbolic learning methods do you people provide?
 **A:** At the moment, [*ModalDecisionTrees.jl*](https://github.com/aclai-lab/ModalDecisionTrees.jl) is the only package compatible with Sole.jl, and it provides novel decision tree algorithms based on modal temporal and spatial logics for time-series and image classification. Checkout the related [talk at JuliaCon22](https://live.juliacon.org/talk/RQP9TG).
 
 **Q:** Why the name?
 **A:** *Sole* stands for SymbOlic LEarning; it also means "sun" in Italian, a hint to the enlightening power of transparent modeling.
+-->
 
 <!-- ![](Sole%20code%20organization.png "Code organization")
 <p align="center">
