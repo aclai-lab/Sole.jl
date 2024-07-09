@@ -56,6 +56,10 @@ Additional packages include:
 + [*ModalDecisionTrees.jl*](https://github.com/aclai-lab/ModalDecisionTrees.jl) which allows you to learn decision trees based on temporal logics on time-series datasets, and spatial logics on (small) image datasets;
 + [*ModalDecisionLists.jl*](https://github.com/aclai-lab/ModalDecisionLists.jl) which implements a sequential covering algorithm to learn decision lists;
 
+## Want to know more?
+The formal foundations of the framework are given in the PhD thesis:
+[*Modal Symbolic Learning: from theory to practice*, G. Pagliarini (2024)](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=FRo4yrcAAAAJ&citation_for_view=FRo4yrcAAAAJ:LkGwnXOMwfcC)
+
 <!--
 + [*SoleFeatures.jl*](https://github.com/aclai-lab/SoleFeatures.jl) provides tools for filter-based **feature selection** on [*(un)structured* data](https://en.wikipedia.org/wiki/Unstructured_data). At this time, the package provides:
 	+ 3 native feature selection methods, plus a wrapper around python implementations from *scikit-learn* and *scikit-feature*;
