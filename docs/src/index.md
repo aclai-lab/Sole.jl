@@ -10,5 +10,5 @@ Welcome to the documentation for [Sole](https://github.com/aclai-lab/Sole.jl), a
 ```
 
 ```@autodocs
-Modules = [Sole]
+Modules = [Sole, Sole.SoleLogics, Sole.SoleData, Sole.SoleModels]
 ```
