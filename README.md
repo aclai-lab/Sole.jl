@@ -46,7 +46,7 @@ Although at an embryonic stage, *Sole.jl* covers a relatively wide range of func
 	+ Algorithms for [model checking](https://en.wikipedia.org/wiki/Model_checking) (that is, checking that a formula is satisfied by an interpretation).
 + [*SoleData.jl*](https://github.com/aclai-lab/SoleData.jl) provides the **data layer** for representing *logisets*, that is, the logical counterpart to machine learning datasets:
  	+ Optimized data structures, useful when learning models from datasets;
-        + Support for [multimodal data](https://en.m.wikipedia.org/wiki/Multimodal_learning).
+        + Support for [multimodal data](https://en.wikipedia.org/wiki/Multimodal_learning).
 + [*SoleModels.jl*](https://github.com/aclai-lab/SoleModels.jl) defines the building blocks of **symbolic modeling**, featuring:
 	+ Definitions for (logic-agnostic) symbolic models (mainly, decision rules/lists/trees/forests);
 	+ Support for mixed, neuro-symbolic computation.
