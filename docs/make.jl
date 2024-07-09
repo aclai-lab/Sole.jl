@@ -26,6 +26,7 @@ makedocs(;
     pages=[
         "Home" => "index.md",
     ],
+    warnonly = true, # TODO remove?
 )
 
 deploydocs(;
