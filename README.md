@@ -60,6 +60,8 @@ Additional packages include:
 The formal foundations of the framework are given in [giopaglia](https://github.com/giopaglia/)'s PhD thesis:
 [*Modal Symbolic Learning: from theory to practice*, G. Pagliarini (2024)](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=FRo4yrcAAAAJ&citation_for_view=FRo4yrcAAAAJ:LkGwnXOMwfcC)
 
+Additionally, there's a [10-hour PhD course on YouTube](https://www.youtube.com/playlist?list=PLyuPAlvJWIqLvYpGhenzXCA1JMW2HQwBv), as well as [material](https://github.com/aclai-lab/modal-symbolic-learning-course/) for it (including Jupyter Notebooks displaying symbolic AI workflows with Sole).
+
 <!--
 + [*SoleFeatures.jl*](https://github.com/aclai-lab/SoleFeatures.jl) provides tools for filter-based **feature selection** on [*(un)structured* data](https://en.wikipedia.org/wiki/Unstructured_data). At this time, the package provides:
 	+ 3 native feature selection methods, plus a wrapper around python implementations from *scikit-learn* and *scikit-feature*;
