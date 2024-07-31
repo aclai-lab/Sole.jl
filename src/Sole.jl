@@ -10,6 +10,8 @@ using Reexport
 
 using SoleModels: load_arff_dataset
 
+include("datasets.jl")
+
 # using SoleFeatures
 
 # using SolePostHoc
