@@ -15,6 +15,7 @@ TODO:
 <!-- [![ColPrac: Contributor's Guide on Collaborative Practices for Community Packages](https://img.shields.io/badge/ColPrac-Contributor's%20Guide-blueviolet)](https://github.com/SciML/ColPrac) -->
 
 
+
 ## Manifesto
 
 Symbolic learning is machine learning based on symbolic logic. Its peculiarity lies in the fact that the learned models enclose an **explicit knowledge representation**, which offers many opportunities:
