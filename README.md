@@ -103,6 +103,6 @@ Read these first:
 
 ## About
 
-The package is developed by the [ACLAI Lab](https://aclai.unife.it/en/) @ University of Ferrara.
+The package is developed and maintained by the [ACLAI Lab](https://aclai.unife.it/en/) @ University of Ferrara.
 
 Long live transparent modeling!
