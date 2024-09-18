@@ -258,7 +258,7 @@ begin
 	ruleset = listrules(tree_train);
 
 	# Print ruleset
-	printmodel.(ruleset; show_metrics = true, threshold_digits = 2, variable_names_map = [names(X_df2)], parenthesize_atoms = false);
+	printmodel.(ruleset; show_metrics = true, threshold_digits = 2, variable_names_map = names(X_df2), parenthesize_atoms = false);
 end
 
 # ╔═╡ 00310a1c-c4f4-43bc-a60c-a6113434f242
@@ -269,14 +269,14 @@ begin
 	# Extract ruleset and print its metrics
 	ruleset_test = listrules(tree_test)
 
-	printmodel.(ruleset_test; show_metrics = true, threshold_digits = 2, variable_names_map = [names(X_df2)]);
+	printmodel.(ruleset_test; show_metrics = true, threshold_digits = 2, variable_names_map = names(X_df2));
 end
 
 # ╔═╡ b3417b90-c910-407a-939b-5190602c5899
 begin
 	# In the classification scenario, rules for the same class can be joined via logical conjunction (∨)
 	joined_ruleset_test = joinrules(ruleset_test)
-	printmodel.(joined_ruleset_test; show_metrics = true, variable_names_map = [names(X_df2)], threshold_digits = 3);
+	printmodel.(joined_ruleset_test; show_metrics = true, variable_names_map = names(X_df2), threshold_digits = 3);
 end
 
 # ╔═╡ 3cdf0a35-edd0-4a02-9410-94e828d0f519
