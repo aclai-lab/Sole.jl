@@ -27,9 +27,14 @@ These levels of **transparency** (or *interpretability*) are generally not avail
 
 *Enough with this!* The lesser and lesser minoritarian theory of symbolic learning deserves a programming framework of its own!
 
-#### JuliaCon 2023 30-minute talk
+#### JuliaCon2024 8-minute talk
+<div align="center">
+<a target="_blank" href="https://youtu.be/pfejOC_T5cQ">
+  <img src="https://img.youtube.com/vi/pfejOC_T5cQ/0.jpg">
+</a>
+</div>
 
-<!-- [![](https://img.youtube.com/vi/HTRhOmQIObg/0.jpg)](https://youtu.be/HTRhOmQIObg) -->
+#### JuliaCon2023 30-minute talk
 <div align="center">
 <a target="_blank" href="https://youtu.be/HTRhOmQIObg">
   <img src="https://img.youtube.com/vi/HTRhOmQIObg/0.jpg">
