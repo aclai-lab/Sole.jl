@@ -112,9 +112,10 @@ end
 # ╔═╡ a14b58da-73e5-4c16-9136-343e289be763
 begin
     # Create a new logical operator `⊕`
-    import SoleLogics: arity
+    import SoleLogics: arity, iscommutative
     const ⊕ = SoleLogics.NamedConnective{:⊕}()
     SoleLogics.arity(::typeof(⊕)) = 2
+    SoleLogics.iscommutative(::typeof(⊕)) = true
 
     parseformula("¬p ∧ q") ⊕ p |> syntaxstring
 end
