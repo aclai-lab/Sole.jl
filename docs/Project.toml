@@ -1,6 +1,10 @@
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 Sole = "7b3b3b3f-8b15-4a80-a798-b383498bc2cf"
+SoleBase = "4475fa32-7023-44a0-aa70-4813b230e492"
+SoleData = "123f1ae1-6307-4526-ab5b-aab3a92a2b8c"
+SoleLogics = "b002da8f-3cb3-4d91-bbe3-2953433912b5"
+SoleModels = "4249d9c7-3290-4ddd-961c-e1d3ec2467f8"
 
 [compat]
 Documenter = "1"

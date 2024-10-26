@@ -1,7 +1,7 @@
 name = "Sole"
 uuid = "7b3b3b3f-8b15-4a80-a798-b383498bc2cf"
-authors = ["Michele Ghiotti", "Federico Manzella", "Mauro Milella", "Giovanni Pagliarini", "Eduard I. Stan", "Guido Sciavicco"]
-version = "0.5.0"
+authors = ["Michele Ghiotti", "Federico Manzella", "Mauro Milella", "Giovanni Pagliarini", "Edoardo Ponsanesi", "Eduard I. Stan", "Guido Sciavicco"]
+version = "0.6.0"
 
 [deps]
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
@@ -13,9 +13,9 @@ SoleModels = "4249d9c7-3290-4ddd-961c-e1d3ec2467f8"
 
 [compat]
 SoleBase = "0.12"
-SoleData = "0.14"
+SoleData = "0.15"
 SoleLogics = "0.10"
-SoleModels = "0.7"
+SoleModels = "0.8"
 Reexport = "1.2"
 Random = "1"
 julia = "1"

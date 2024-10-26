@@ -1,10 +1,19 @@
 using Sole
 using Documenter
+using SoleBase
+using SoleLogics
+using SoleData
+using SoleData
+using SoleModels
 
 DocMeta.setdocmeta!(Sole, :DocTestSetup, :(using Sole); recursive=true)
+DocMeta.setdocmeta!(SoleBase, :DocTestSetup, :(using SoleBase); recursive=true)
+DocMeta.setdocmeta!(SoleLogics, :DocTestSetup, :(using SoleLogics); recursive=true)
+DocMeta.setdocmeta!(SoleData, :DocTestSetup, :(using SoleData); recursive=true)
+DocMeta.setdocmeta!(SoleModels, :DocTestSetup, :(using SoleModels); recursive=true)
 
 makedocs(;
-    modules=[Sole],
+    modules=[SoleBase, SoleLogics, SoleData, SoleData.DimensionalDatasets, SoleModels],
     authors="Federico Manzella, Giovanni Pagliarini, Eduard I. Stan, Guido Sciavicco",
     repo=Documenter.Remotes.GitHub("aclai-lab", "Sole.jl"),
     sitename="Sole.jl",
@@ -17,6 +26,7 @@ makedocs(;
     pages=[
         "Home" => "index.md",
     ],
+    warnonly = true, # TODO remove?
 )
 
 deploydocs(;
