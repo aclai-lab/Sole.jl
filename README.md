@@ -15,6 +15,7 @@ TODO:
 <!-- [![ColPrac: Contributor's Guide on Collaborative Practices for Community Packages](https://img.shields.io/badge/ColPrac-Contributor's%20Guide-blueviolet)](https://github.com/SciML/ColPrac) -->
 
 
+
 ## Manifesto
 
 Symbolic learning is machine learning based on symbolic logic. Its peculiarity lies in the fact that the learned models enclose an **explicit knowledge representation**, which offers many opportunities:
@@ -26,9 +27,14 @@ These levels of **transparency** (or *interpretability*) are generally not avail
 
 *Enough with this!* The lesser and lesser minoritarian theory of symbolic learning deserves a programming framework of its own!
 
-#### JuliaCon 2023 30-minute talk
+#### JuliaCon2024 8-minute talk
+<div align="center">
+<a target="_blank" href="https://youtu.be/pfejOC_T5cQ">
+  <img src="https://img.youtube.com/vi/pfejOC_T5cQ/0.jpg">
+</a>
+</div>
 
-<!-- [![](https://img.youtube.com/vi/HTRhOmQIObg/0.jpg)](https://youtu.be/HTRhOmQIObg) -->
+#### JuliaCon2023 30-minute talk
 <div align="center">
 <a target="_blank" href="https://youtu.be/HTRhOmQIObg">
   <img src="https://img.youtube.com/vi/HTRhOmQIObg/0.jpg">
@@ -103,6 +109,6 @@ Read these first:
 
 ## About
 
-The package is developed by the [ACLAI Lab](https://aclai.unife.it/en/) @ University of Ferrara.
+The package is developed and maintained by the [ACLAI Lab](https://aclai.unife.it/en/) @ University of Ferrara.
 
 Long live transparent modeling!
