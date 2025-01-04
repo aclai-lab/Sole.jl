@@ -58,9 +58,10 @@ Although at an embryonic stage, *Sole.jl* covers a range of functionality that i
 	+ Support for mixed, neuro-symbolic computation.
 
 Additional packages include:
-+ [*SoleDecisionTreeInterface.jl*](https://github.com/aclai-lab/SoleDecisionTreeInterface.jl), which enables the use of Sole on decision trees learned via [DecisionTree.jl](https://github.com/JuliaAI/DecisionTree.jl) (e.g., extract and evaluate rules);
 + [*ModalDecisionTrees.jl*](https://github.com/aclai-lab/ModalDecisionTrees.jl) which allows you to learn decision trees based on temporal logics on time-series datasets, and spatial logics on (small) image datasets;
 + [*ModalDecisionLists.jl*](https://github.com/aclai-lab/ModalDecisionLists.jl) which implements a sequential covering algorithm to learn decision lists;
+
+<!-- + [*SoleDecisionTreeInterface.jl*](https://github.com/aclai-lab/SoleDecisionTreeInterface.jl), which enables the use of Sole on decision trees learned via [DecisionTree.jl](https://github.com/JuliaAI/DecisionTree.jl) (e.g., extract and evaluate rules); -->
 
 ## Want to know more?
 The formal foundations of the framework are given in [giopaglia](https://github.com/giopaglia/)'s PhD thesis:
