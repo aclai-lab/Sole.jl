@@ -12,9 +12,9 @@ SoleLogics = "b002da8f-3cb3-4d91-bbe3-2953433912b5"
 SoleModels = "4249d9c7-3290-4ddd-961c-e1d3ec2467f8"
 
 [compat]
-SoleBase = "0.12"
+SoleBase = "0.13"
 SoleData = "0.15 - 0.16"
-SoleLogics = "0.9 - 0.11"
+SoleLogics = "0.9 - 0.12"
 SoleModels = "0.8 - 0.10"
 Reexport = "1.2"
 Random = "1"
