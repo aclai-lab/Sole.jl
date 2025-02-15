@@ -27,21 +27,74 @@ These levels of **transparency** (or *interpretability*) are generally not avail
 
 *Enough with this!* The lesser and lesser minoritarian theory of symbolic learning deserves a programming framework of its own!
 
-#### JuliaCon2024 8-minute talk
-<div align="center">
-<a target="_blank" href="https://youtu.be/pfejOC_T5cQ">
-  <img src="https://img.youtube.com/vi/pfejOC_T5cQ/0.jpg">
-</a>
-</div>
-
-#### JuliaCon2023 30-minute talk
-<div align="center">
-<a target="_blank" href="https://youtu.be/HTRhOmQIObg">
-  <img src="https://img.youtube.com/vi/HTRhOmQIObg/0.jpg">
-</a>
-</div>
-
 ## The Sole.jl framework
+
+The framework is composed 
+```mermaid
+
+graph TD
+    SB[<font color="black">SoleBase.jl</font>]
+    SL[<font color="black">SoleLogics.jl</font>]
+    SD[<font color="black">SoleData.jl</font>]
+    SM[<font color="black">SoleModels.jl</font>]
+    S[<font color="black">Sole.jl</font>]
+
+    SL --> SB
+
+    SD --> SL
+    SM --> SL
+
+    S --> SD
+    S --> SM
+
+    SF[<font color="black">SoleFeatures.jl</font>]
+    %% SV[<font color="black">SoleViz.jl</font>]
+    MDL[<font color="black">ModalDecisionLists.jl</font>]
+    MDT[<font color="black">ModalDecisionTrees.jl</font>]
+    MAR[<font color="black">ModalAssociationRules.jl</font>]
+    SPH[<font color="black">SolePostHoc.jl</font>]
+    SX[<font color="black">SoleExplorer.jl</font>]
+    SLR[<font color="black">SoleReasoners.jl</font>]
+
+    %% SA[<font color="black">SoleAudio.jl</font>]
+    %% A[<font color="black">Audio911.jl</font>]
+    %% SA --> A
+    MD[<font color="black">MultiData.jl</font>]
+    SD --> MD
+
+    SF --> SD
+    %% SV --> SD
+
+    MDL --> S
+    MDT --> S
+    MAR --> S
+    SPH --> SM
+
+    SLR --> SL
+
+    SX --> S
+    SX --> MDT
+    SX --> MDL
+    SX --> MAR
+    SX --> SPH
+
+    style SB fill:#FFFFFF,stroke:#000000
+    style SL fill:#9558B2,stroke:#000000
+    style SD fill:#4063D8,stroke:#000000
+    style SM fill:#389824,stroke:#000000
+    style SF fill:#4063D8,stroke:#000000
+    %% style SV fill:#4063D8,stroke:#000000
+    style S fill:#D56B3D,stroke:#000000
+    style MDL fill:#D56B3D,stroke:#000000
+    style MDT fill:#D56B3D,stroke:#000000
+    style MAR fill:#D56B3D,stroke:#000000
+    style SPH fill:#389824,stroke:#000000
+    style SLR fill:#9558B2,stroke:#000000
+    %% style A fill:#FFFFFF,stroke:#000000
+    style SX fill:#FFFFFF,stroke:#000000
+    style MD fill:#4063D8,stroke:#000000
+
+```
 
 *Sole* is a collection of Julia packages for symbolic learning and reasoning.
 Although at an embryonic stage, *Sole.jl* covers a range of functionality that is of interest for the symbolic community, but it also fills some gaps with a few functionalities for standard machine learning pipelines. At the time of writing, the framework comprehends the three core packages:
@@ -61,6 +114,23 @@ Additional packages include:
 + [*SoleDecisionTreeInterface.jl*](https://github.com/aclai-lab/SoleDecisionTreeInterface.jl), which enables the use of Sole on decision trees learned via [DecisionTree.jl](https://github.com/JuliaAI/DecisionTree.jl) (e.g., extract and evaluate rules);
 + [*ModalDecisionTrees.jl*](https://github.com/aclai-lab/ModalDecisionTrees.jl) which allows you to learn decision trees based on temporal logics on time-series datasets, and spatial logics on (small) image datasets;
 + [*ModalDecisionLists.jl*](https://github.com/aclai-lab/ModalDecisionLists.jl) which implements a sequential covering algorithm to learn decision lists;
+
+<!-- + [*SoleDecisionTreeInterface.jl*](https://github.com/aclai-lab/SoleDecisionTreeInterface.jl), which enables the use of Sole on decision trees learned via [DecisionTree.jl](https://github.com/JuliaAI/DecisionTree.jl) (e.g., extract and evaluate rules); -->
+
+#### JuliaCon2024 8-minute talk
+
+<div align="center">
+<a target="_blank" href="https://youtu.be/pfejOC_T5cQ">
+  <img src="https://img.youtube.com/vi/pfejOC_T5cQ/0.jpg">
+</a>
+</div>
+
+#### JuliaCon2023 30-minute talk
+<div align="center">
+<a target="_blank" href="https://youtu.be/HTRhOmQIObg">
+  <img src="https://img.youtube.com/vi/HTRhOmQIObg/0.jpg">
+</a>
+</div>
 
 ## Want to know more?
 The formal foundations of the framework are given in [giopaglia](https://github.com/giopaglia/)'s PhD thesis:
