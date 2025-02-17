@@ -109,6 +109,68 @@ graph TD
 
 ```
 
+The following is a similar schema, but leverages mermaid's subgraph capabilities to avoid overlappings between nodes.
+```mermaid
+graph TD
+    SX[<font color="black">SoleExplorer.jl</font>]
+
+    subgraph Group1[ ]
+        MAR[<font color="black">ModalAssociationRules.jl</font>]
+        MDT[<font color="black">ModalDecisionTrees.jl</font>]
+        MDL[<font color="black">ModalDecisionLists.jl</font>]
+        S[<font color="black">Sole.jl</font>]
+    end
+
+    subgraph Group2[ ]
+        SF[<font color="black">SoleFeatures.jl</font>]
+        SD[<font color="black">SoleData.jl</font>]
+        MD[<font color="black">MultiData.jl</font>]
+    end
+
+    subgraph Group3[ ]
+        PHC[<font color="black">SolePostHoc.jl</font>]
+        SM[<font color="black">SoleModels.jl</font>]
+    end
+
+    subgraph Group4[ ]
+        SL[<font color="black">SoleLogics.jl</font>]
+        SR[<font color="black">SoleReasoners.jl</font>]
+        SB[<font color="black">SoleBase.jl</font>]
+    end
+
+    SX --> MDL 
+    SX --> MDT
+    SX --> MAR
+    SX --> S
+    SX --> PHC
+
+    SL --> SB
+    SD --> SL
+    SD --> MD
+    SM --> SL
+    S --> SD
+    PHC --> SM
+    S --> SM
+    SF --> SD
+    MDL --> S
+    MDT --> S
+    MAR --> S
+    SR --> SL
+
+    style SB fill:#FFFFFF,stroke:#000000
+    style SL fill:#9558B2,stroke:#000000
+    style SD fill:#4063D8,stroke:#000000
+    style SM fill:#389824,stroke:#000000
+    style SF fill:#4063D8,stroke:#000000
+    style S fill:#D56B3D,stroke:#000000
+    style MDL fill:#D56B3D,stroke:#000000
+    style MDT fill:#D56B3D,stroke:#000000
+    style MAR fill:#D56B3D,stroke:#000000
+    style PHC fill:#389824,stroke:#000000
+    style SR fill:#9558B2,stroke:#000000
+    style MD fill:#4063D8,stroke:#000000
+```
+
 *Sole* is a collection of Julia packages for symbolic learning and reasoning.
 Although at an embryonic stage, *Sole.jl* covers a range of functionality that is of interest for the symbolic community, but it also fills some gaps with a few functionalities for standard machine learning pipelines. At the time of writing, the framework comprehends the three core packages:
 + [*SoleLogics.jl*](https://github.com/aclai-lab/SoleLogics.jl) provides the **logical layer** for symbolic learning. It provides a useful codebase for [*computational logic*](https://en.wikipedia.org/wiki/Computational_logic), which features easy manipulation of:
