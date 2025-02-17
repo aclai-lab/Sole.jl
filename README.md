@@ -135,8 +135,8 @@ graph TD
     subgraph Group4[ ]
         SL[<font color="black">SoleLogics.jl</font>]
         SR[<font color="black">SoleReasoners.jl</font>]
-        SB[<font color="black">SoleBase.jl</font>]
     end
+    SB[<font color="black">SoleBase.jl</font>]
 
     SX --> MDL 
     SX --> MDT
