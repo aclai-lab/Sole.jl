@@ -157,6 +157,7 @@ graph TD
     MAR --> S
     SR --> SL
 
+    style SX fill:#FFFFFF,stroke:#000000
     style SB fill:#FFFFFF,stroke:#000000
     style SL fill:#9558B2,stroke:#000000
     style SD fill:#4063D8,stroke:#000000
