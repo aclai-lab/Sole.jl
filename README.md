@@ -163,7 +163,7 @@ graph TD
     style SD fill:#4063D8,stroke:#000000
     style SM fill:#389824,stroke:#000000
     style SF fill:#4063D8,stroke:#000000
-    style S fill:#D56B3D,stroke:#000000
+    style S fill:#FFFFFF,stroke:#000000
     style MDL fill:#D56B3D,stroke:#000000
     style MDT fill:#D56B3D,stroke:#000000
     style MAR fill:#D56B3D,stroke:#000000
