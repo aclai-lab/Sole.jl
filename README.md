@@ -109,7 +109,7 @@ graph TD
 
 ```
 
-The following is a similar schema, but leverages mermaid's subgraph capabilities to avoid overlappings between nodes.
+Second schema version:
 ```mermaid
 graph TD
     SX[<font color="black">SoleExplorer.jl</font>]
@@ -118,8 +118,8 @@ graph TD
         MAR[<font color="black">ModalAssociationRules.jl</font>]
         MDT[<font color="black">ModalDecisionTrees.jl</font>]
         MDL[<font color="black">ModalDecisionLists.jl</font>]
-        S[<font color="black">Sole.jl</font>]
     end
+    S[<font color="black">Sole.jl</font>]
 
     subgraph Group2[ ]
         SF[<font color="black">SoleFeatures.jl</font>]
