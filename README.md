@@ -138,8 +138,6 @@ Ever wondered what to do with a trained [DecisionTree](https://github.com/JuliaA
 
 <!-- Note: this is a newly developed package; its potential is still unknown. -->
 
-## Usage
-
 ### Converting to a Sole model
 
 ```julia
