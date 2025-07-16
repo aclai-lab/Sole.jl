@@ -122,7 +122,7 @@ Although at an embryonic stage, *Sole.jl* covers a range of functionality that i
 	+ Support for mixed, neuro-symbolic computation.
 
 Additional packages include:
-+ [*ModalAssociationRules.jl](https://github.com/aclai-lab/ModalAssociationRules.jl) which implements various strategies to mine association rules from data;
++ [*ModalAssociationRules.jl*](https://github.com/aclai-lab/ModalAssociationRules.jl) which implements various strategies to mine association rules from data;
 + [*ModalDecisionTrees.jl*](https://github.com/aclai-lab/ModalDecisionTrees.jl) which allows you to learn decision trees based on temporal logics on time-series datasets, and spatial logics on (small) image datasets;
 + [*ModalDecisionLists.jl*](https://github.com/aclai-lab/ModalDecisionLists.jl) which implements a sequential covering algorithm to learn decision lists;
 
